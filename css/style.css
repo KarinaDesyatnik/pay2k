@@ -2463,6 +2463,10 @@ footer .follow-us {
   .download-page-description__title {
     font-size: 22px;
   }
+  .download-page-description__title {
+    max-width: 720px;
+    margin: 0 auto;
+  }
 
   
 
@@ -3332,6 +3336,11 @@ footer .follow-us {
   .recend_payouts .container-fluid .col-6:last-child .title {
     margin-left: 15px;
   }
+  .download-page-description__title {
+    max-width: 550px;
+   
+}
+
  
 
 }
@@ -3352,6 +3361,8 @@ footer .follow-us {
   .bg-company {
     width: 85%;
   }
+ 
+
 }
 
 /* Small Devices, Tablets */
