@@ -43,7 +43,7 @@ h1 {
   font-size: 48px;
   line-height: 58px;
   font-weight: 900;
-  max-width: 742px;
+  max-width: 722px;
   padding-top: 170px;
 }
 
@@ -1390,7 +1390,28 @@ footer .follow-us {
   display: none;
 }
 .download-page-description .list-item li {
-  padding-left: 0
+ 
+}
+.download-page-description .container-fluid {
+  width: 900px;
+}
+.download-page-description ul {
+  margin-left: 10%;
+  
+}
+.download-page-description p {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    /*text-align: center;*/
+}
+.download-page-description ul li {
+  margin-bottom: 20px;
+}
+.download__button-wrapper-fixed.fixed {
+  display: none;
 }
 
 
@@ -1772,7 +1793,7 @@ footer .follow-us {
   h1 {
     font-size: 32px;
     line-height: 38px;
-    max-width: 535px;
+    max-width: 513px;
     padding-top: 80px;
   }
   .menu ul li {
@@ -2181,6 +2202,7 @@ footer .follow-us {
     padding-top: 100px;
     padding-bottom: 0;
   }
+
   .download-content__sub-title {
     margin-bottom: 25px;
   }
@@ -2218,7 +2240,7 @@ footer .follow-us {
   h1 {
     font-size: 26px;
     line-height: 34px;
-    max-width: 482px;
+    max-width: 417px;
     padding-top: 37px;
   }
   .header-content p {
@@ -2434,7 +2456,7 @@ footer .follow-us {
   }
   h1 {
     padding-top: 30px;
-    max-width: 489px;
+    max-width: 417px;
   }
   header {
     min-height: 366px;
@@ -2617,7 +2639,7 @@ footer .follow-us {
   /**/
   h1 {
     padding-top: 0;
-    max-width: 402px;
+    max-width: 353px;
   }
   header {
     min-height: 322px;
@@ -2666,6 +2688,12 @@ footer .follow-us {
     margin: 0 auto;
     font-size: 20px;
     margin-top: 30px;
+  }
+  .download-page-description .container-fluid {
+    width: 100%;
+  }
+  .download-page-description ul {
+    margin-left: 2%;
   }
   
 
@@ -3172,17 +3200,18 @@ footer .follow-us {
   .download-section {
     margin-bottom: 80px;
   }
-  .download__button-wrapper.fixed{
+  .download__button-wrapper-fixed.fixed{
     position: fixed;
     bottom: 0;
     background: #fff;
     width: 100%;
     left: 0;
     padding-bottom: 5px;
+    display: block;
 
 
   }
-  .download__button-wrapper.fixed .download__button {
+  .download__button-wrapper-fixed.fixed .download__button {
     margin-top: 5px;
     position: relative;
     z-index: 999;
@@ -3204,6 +3233,16 @@ footer .follow-us {
   footer h2 {
     padding-top: 90px;
   }
+  .download-page-description p {
+    font-size: 14px;
+  }
+  .download-page-description {
+    
+    padding-bottom: 35px;
+  }
+  .download-page-description--hompage {
+     padding-bottom: 0;
+  } 
 
 
  
