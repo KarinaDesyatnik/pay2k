@@ -1300,11 +1300,12 @@ footer .follow-us a {
 }
 
 .download-page-description__sub-title {
-  text-align: center;
-  font-size: 20px;
+  /*text-align: center;*/
+  font-size: 16px;
   margin-top: 16px;
   font-weight: 700;
   margin-bottom: 44px;
+  /*margin-left: 10%;*/
 }
 
 .download-page-description ul li {
@@ -1387,13 +1388,26 @@ footer .follow-us {
   
 }
 .download-page-description .list-item li:before {
-  display: none;
+  height: auto;
+  width: auto;
+  background: transparent;
+  top: 0;
+  
+}
+.download-page-description .list-item li:first-child:before {
+  content: '1)';
+}
+.download-page-description .list-item li:nth-child(2):before {
+  content: '2)';
+}
+.download-page-description .list-item li:nth-child(3):before {
+  content: '3)';
 }
 .download-page-description .list-item li {
  
 }
 .download-page-description .container-fluid {
-  width: 900px;
+  width: 962px;
 }
 .download-page-description ul {
   margin-left: 10%;
@@ -1402,10 +1416,9 @@ footer .follow-us {
 .download-page-description p {
     font-weight: 300;
     font-size: 16px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-top: 35px;
     position: relative;
-    /*text-align: center;*/
 }
 .download-page-description ul li {
   margin-bottom: 20px;
@@ -2436,6 +2449,9 @@ footer .follow-us {
     top: 0;
 
   }
+  .download-page-description__title {
+    font-size: 22px;
+  }
 
   
 
@@ -2629,6 +2645,9 @@ footer .follow-us {
     bottom: -372px;
     right: -372px;
   }
+  .download-page-description .container-fluid {
+    width: 100%;
+  }
 
 
 
@@ -2639,7 +2658,7 @@ footer .follow-us {
   /**/
   h1 {
     padding-top: 0;
-    max-width: 353px;
+    max-width: 356px;
   }
   header {
     min-height: 322px;
@@ -3653,6 +3672,7 @@ footer .follow-us {
   }
   .download-page-description__title {
     font-size: 18px;
+    min-width: 298px;
   }
   .download-page-description__sub-title {
     font-size: 14px;
