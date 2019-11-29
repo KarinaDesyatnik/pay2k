@@ -1315,6 +1315,7 @@ footer .follow-us a {
   margin-bottom: 30px;
   position: relative;
   padding-left: 20px;
+  margin-left: 10%;
 }
 
 .download-page-description ul li:before {
@@ -2657,6 +2658,9 @@ footer .follow-us {
   }
   .download-page-description .container-fluid {
     width: 100%;
+  }
+  .download-page-description ul li {
+    margin-left: 2%;
   }
 
 
