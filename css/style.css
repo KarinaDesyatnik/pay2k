@@ -1437,6 +1437,12 @@ footer .follow-us {
 .download__button-wrapper-fixed.fixed {
   display: none;
 }
+.download-page-description__title--mobil {
+  display: none;
+}
+.download-page .download__button-wrapper {
+  display: none;
+}
 
 
  
@@ -2676,7 +2682,7 @@ footer .follow-us {
   /**/
   h1 {
     padding-top: 0;
-    max-width: 350px;
+    max-width: 365px;
   }
   header {
     min-height: 322px;
@@ -2814,6 +2820,7 @@ footer .follow-us {
     font-size: 22px;
     line-height: 29px;
     margin-top: 0px;
+    max-width: 350px;
   }
   .header-content p {
     font-size: 14px;
@@ -3245,6 +3252,7 @@ footer .follow-us {
     left: 0;
     padding-bottom: 5px;
     display: block;
+    z-index: 99;
 
 
   }
@@ -3337,8 +3345,18 @@ footer .follow-us {
     margin-left: 15px;
   }
   .download-page-description__title {
-    max-width: 550px;
+    max-width: 587px;
    
+}
+.download-page-description__title span {
+  display: none;
+}
+.download-page-description__title--desktop {
+  display: none;
+
+}
+.download-page-description__title--mobil {
+  display: block;
 }
 
  
@@ -3361,7 +3379,10 @@ footer .follow-us {
   .bg-company {
     width: 85%;
   }
- 
+   .download-page-description__title {
+    max-width: 464px;
+   
+}
 
 }
 
@@ -3697,7 +3718,7 @@ footer .follow-us {
   }
   .download-page-description__title {
     font-size: 18px;
-    min-width: 298px;
+    min-width: 300px;
   }
   .download-page-description__sub-title {
     font-size: 14px;
@@ -3707,6 +3728,32 @@ footer .follow-us {
     margin-bottom: 15px;
     font-size: 14px;
   }
+  .download-content__sub-title .retry {
+    display: none;
+  }
+  .download-header .download__button-wrapper .download__button {
+    margin-top: 7px;
+    max-width: 87%;
+    box-shadow: 0px 0px 8px #fff;
+  }
+  .download-header .download__button-wrapper .download__button a {
+    padding: 8px 10px;
+  }
+  .download-page .download__button-wrapper .download__button a {
+    padding: 8px 10px;
+  }
+  .download-page .download__button-wrapper-fixed .download__button {
+    max-width: 87%;
+
+  }
+ .download-page .download__button-wrapper {
+  display: block;
+}
+
+
+
+  
+  
 
 
 }
@@ -3834,6 +3881,7 @@ footer .follow-us {
   footer .col-md-6:nth-child(1) {
     top: -50px;
   }
+
 }
 
 /* Extra Small Devices, Phones */

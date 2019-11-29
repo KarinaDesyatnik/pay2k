@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="download-page">
 
     <header class="download-header">
 <!-- <img src="img/download_bg2.png" alt="" class="download__header-bg"> -->
@@ -46,10 +46,20 @@
             <div class="download-content ">
                 <div class="container">
                       <div class="download-content__title">
-                Thank you for downloading the Pay2K App
+               Downloading <br>  in process
              </div>
              <div class="download-content__sub-title">
-                Not working after 10 second? <a href="">Retry Download</a>
+                Not working after 10 second? <a class="retry" href="">Retry Download</a>
+                 <div class="download__button-wrapper-fixed fixed">
+                     <div class="download__button ">
+                    <a href="">Retry Download</a>
+                </div>
+                </div>
+                <div class="download__button-wrapper">
+                     <div class="download__button ">
+                    <a href="">Retry Download</a>
+                </div>
+                </div>
              </div>
 
              <div class="row">
@@ -164,10 +174,15 @@
 
     <section class="download-page-description">
         <div class="container-fluid">
-            <div class="download-page-description__title">
+            <div class="download-page-description__title download-page-description__title--desktop">
                 Как буквально за 30 минут и 100% бесплатно вы сможете 
 зарабатывать от 10 долларов ежедневно <br>
 играя в мобильные игры
+
+            </div>
+             <div class="download-page-description__title download-page-description__title--mobil">
+                Как за 30 минут и 100% бесплатно вы будете
+ежедневно зарабатывать от 10 долларов, играя в мобильные игры
 
             </div>
             <p>
@@ -186,7 +201,7 @@
         </div>
     </section>
  
-    <footer>
+    <footer id="scroll-position">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
