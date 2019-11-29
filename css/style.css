@@ -1289,6 +1289,10 @@ footer .follow-us a {
 .download-page-description {
   padding: 150px 0;
 }
+.download-page-description--hompage {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
 
 .download-page-description__title {
   font-size: 28px;
@@ -1366,7 +1370,31 @@ footer .follow-us a {
 .download-content__item-icon--center {
   top: 0;
 }
+footer .follow-us {
+   
+    -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.mobil-menu-item {
+  display: none;
+}
+.download-page-description__sub-title--left-align {
+  text-align: left;
+}
+.list-item {
+  
+}
+.download-page-description .list-item li:before {
+  display: none;
+}
+.download-page-description .list-item li {
+  padding-left: 0
+}
 
+
+ 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 
@@ -1435,6 +1463,9 @@ footer .follow-us a {
   .download__screen-image--3 {
     top: -3px;
   }
+  footer h2 {
+    padding-top: 37px;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -1492,6 +1523,9 @@ footer .follow-us a {
         -ms-transform: scale(0.8);
             transform: scale(0.8);
     right: -99px;
+  }
+  .download-page-description--hompage {
+    padding-top: 40px;
   }
 }
 
@@ -2060,6 +2094,9 @@ footer .follow-us a {
   .download__left-background {
     top: 25px;
   }
+  footer h2 {
+    padding-top: 65px;
+  }
  
 }
 
@@ -2152,6 +2189,12 @@ footer .follow-us a {
   }
   .download__screen-image-right {
     top: 21px;
+  }
+  footer h2 {
+    padding-top: 70px;
+  }
+  .download-page-description--hompage {
+    padding-top: 30px;
   }
 }
 
@@ -3144,6 +3187,23 @@ footer .follow-us a {
     position: relative;
     z-index: 999;
   }
+  .menu ul.active a {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .mobil-menu-item {
+    display: block;
+  }
+  .download-header.active {
+    height: 100vh;
+  }
+  footer .col-md-6:nth-child(1) {
+    position: relative;
+    top: -97px;
+  }
+  footer h2 {
+    padding-top: 90px;
+  }
 
 
  
@@ -3415,7 +3475,19 @@ footer .follow-us a {
 
 
 }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 500px) {
+  /**/
 
+    footer .follow-us {
+    min-width: 178px;
+    -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   /**/
@@ -3537,6 +3609,22 @@ footer .follow-us a {
     position: relative;
     left: -25px;
   }
+  .download-page-description--hompage {
+    padding-top: 10px;
+  }
+  .download-page-description__title {
+    font-size: 18px;
+  }
+  .download-page-description__sub-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .download-page-description ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+
 }
 
 /* Extra Small Devices, Phones */
@@ -3643,9 +3731,9 @@ footer .follow-us a {
     max-width: 98%;
     margin: 0 auto;
   }
-  .about h2 {
+ /* .about h2 {
     padding-top: 60px;
-  }
+  }*/
    .download-header {
     min-height: 450px;
     max-height: 450px;
@@ -3658,6 +3746,9 @@ footer .follow-us a {
   }
   .download-content__title {
     margin-top: 50px;
+  }
+  footer .col-md-6:nth-child(1) {
+    top: -50px;
   }
 }
 
@@ -3676,6 +3767,9 @@ footer .follow-us a {
   .download-header {
     min-height: 430px;
     max-height: 430px;
+  }
+  footer .col-md-6:nth-child(1) {
+    top: -45px;
   }
 }
 
@@ -3718,6 +3812,12 @@ footer .follow-us a {
   .download-content__title {
     margin-top: 36px;
   }
+   footer .follow-us {
+    min-width: 140px;
+}
+footer .col-md-6:nth-child(1) {
+  top: -25px;
+}
   
 }
   /* Extra Small Devices, Phones */
