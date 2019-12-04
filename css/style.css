@@ -66,7 +66,7 @@ h3 {
 }
 
 header {
-  background: url("../img/retina.png");
+  background: url("../img/header_bg.svg");
   -webkit-background-size: 100% 100%;
           background-size: 100%;
   min-height: 713px;
@@ -3301,8 +3301,10 @@ footer .follow-us {
 @media only screen and (max-width: 690px) {
   /**/
   header {
-    -webkit-background-size: 710px 300px;
-            background-size: 710px 300px;
+    -webkit-background-size: 710px 267px;
+            background-size: 710px 267px;
+    min-height: 266px;
+   
   }
   header .container-fluid {
     padding: 0 20px;
@@ -3371,8 +3373,9 @@ footer .follow-us {
 @media only screen and (max-width: 600px) {
   /**/
   header {
-    -webkit-background-size: 630px 300px;
-            background-size: 630px 300px;
+    -webkit-background-size: 680px 257px;
+            background-size: 680px 257px;
+    min-height: 255px;
   }
   h1 {
     max-width: 340px;
@@ -3393,6 +3396,12 @@ footer .follow-us {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 576px) {
   /**/
+   header {
+    -webkit-background-size: 627px 236px;
+            background-size: 627px 236px;
+    min-height: 234px;
+    padding-top: 15px;
+  }
   .recend_payouts .container-fluid .col-md-9 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3549,8 +3558,10 @@ footer .follow-us {
 @media only screen and (max-width: 520px) {
   /**/
   header {
-    -webkit-background-size: 540px 280px;
-            background-size: 540px 280px;
+    -webkit-background-size: 540px 203px;
+            background-size: 540px 203px;
+    padding-top: 10px;
+    min-height: 202px;
   }
   header .container {
     padding: 0 10px;
@@ -3623,6 +3634,10 @@ footer .follow-us {
   .download-header {
     min-height: 470px;
     max-height: 470px;
+  }
+  .download-header.active {
+    height: 100vh;
+    min-height: 100vh;
   }
   .mobil-download__item-list {
     text-align: center;
@@ -3766,7 +3781,7 @@ footer .follow-us {
 @media only screen and (max-width: 448px) {
   /**/
   header {
-    background: url("../img/mobil-bg.png");
+    background: url("../img/mob_bg.png");
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
             background-size: 100% 320px;
