@@ -1350,15 +1350,11 @@ footer .follow-us a {
 .download__screen-image-left,
 .download__screen-image-right {
   position: relative;
-  top: 1px;
+  top: 10px;
 }
 
 .download__screen-image-left {
-  top: 1px;
-}
-.download__screen-image-center {
-  position: relative;
-  top: 7px;
+  top: 9px;
 }
 
 .download__screen-image {
@@ -1368,6 +1364,7 @@ footer .follow-us a {
 
 .download__screen-image-center {
   margin-top: 25px;
+  top: 1px;
 }
 
 .download-content__item-img-wrapper {
@@ -1447,6 +1444,12 @@ footer .follow-us {
 .download-page .download__button-wrapper {
   display: none;
 }
+.download__screen-image-left, .download__screen-image-right {
+    top: 10px;
+  }
+  .download__screen-image-left {
+    top: 8px;
+  }
 
 
  
@@ -1584,6 +1587,9 @@ footer .follow-us {
   }
   .download-content__sub-title {
     margin-bottom: 20px;
+  }
+  .download__screen-image-left, .download__screen-image-right {
+    top: 7.2px;
   }
 
 }
@@ -1814,8 +1820,11 @@ footer .follow-us {
     bottom: -200px;
   }
   .download__screen-image-left, .download__screen-image-right {
-    top: -10px;
+    top: 4px;
   }
+  /*.download__screen-image-right {
+    top: 5px;
+  }*/
 }
 
 /* Large Devices, Wide Screens */
@@ -2247,11 +2256,14 @@ footer .follow-us {
   .download-content__sub-title {
     margin-bottom: 25px;
   }
-  .download__screen-image-left {
+  /*.download__screen-image-left {
     top: 14px;
   }
   .download__screen-image-right {
     top: 21px;
+  }*/
+  .download__screen-image-left, .download__screen-image-right {
+    top: 14px;
   }
   footer h2 {
     padding-top: 70px;
@@ -2259,8 +2271,8 @@ footer .follow-us {
   .download-page-description--hompage {
     padding-top: 30px;
   }
-  .download__screen-image-left, .download__screen-image-right {
-    top: 2px;
+  .download__screen-image-left {
+    top: 12px;
   }
 }
 
@@ -2611,11 +2623,14 @@ footer .follow-us {
   .download-content__item {
     margin-top: 10px;
   }
-  .download__screen-image-left {
+ /* .download__screen-image-left {
     top: 23px;
   }
   .download__screen-image-right {
     top: 28px;
+  }*/
+  .download__screen-image-left, .download__screen-image-right {
+    top: 21px;
   }
   .download-header {
     height: 600px;
@@ -2685,9 +2700,6 @@ footer .follow-us {
   }
   .download-page-description ul li {
     margin-left: 2%;
-  }
-  .download__screen-image-left, .download__screen-image-right {
-    top: 15px;
   }
 
 
@@ -3305,9 +3317,6 @@ footer .follow-us {
   .download-page-description--hompage {
      padding-bottom: 0;
   } 
-  .download__screen-image-left, .download__screen-image-right {
-    top: 31px;
-  }
 
 
  
