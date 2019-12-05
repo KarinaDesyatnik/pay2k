@@ -1445,10 +1445,11 @@ footer .follow-us {
   display: none;
 }
 .download__screen-image-left, .download__screen-image-right {
-    top: 10px;
+    top: 11px;
   }
+
   .download__screen-image-left {
-    top: 9px;
+    top: 10.2px;
   }
 
 
@@ -2272,7 +2273,7 @@ footer .follow-us {
     padding-top: 30px;
   }
   .download__screen-image-left {
-    top: 12px;
+    top: 15px;
   }
 }
 
@@ -2700,6 +2701,9 @@ footer .follow-us {
   }
   .download-page-description ul li {
     margin-left: 2%;
+  }
+  .download__screen-image-left {
+    top: 22px;
   }
 
 
@@ -3205,7 +3209,7 @@ footer .follow-us {
     min-height: 10px;
   }
   .download__screen-image-left {
-    top: 34px;
+    top: 37px;
   }
   .download__screen-image-right {
     top: 36px;
