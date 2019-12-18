@@ -1232,7 +1232,7 @@ footer .follow-us a {
 .download-content__item-title {
   font-size: 16px;
   color: #333333;
-  max-width: 158px;
+  max-width: 225px;
   margin: 0 auto;
 }
 
@@ -3211,10 +3211,10 @@ footer .follow-us {
     min-height: 10px;
   }
   .download__screen-image-left {
-    top: 37px;
+    top: 35px;
   }
   .download__screen-image-right {
-    top: 36px;
+    top: 20px;
   }
     footer .footer-menu {
      display: -webkit-box;
@@ -3582,6 +3582,12 @@ footer .follow-us {
     right: 0px;
     top: 15px;
   }
+ /* .download__screen-image-right {
+    top: 8px;
+  }
+  .download__screen-image-left {
+    top: 21px;
+  }*/
   
 }
 
