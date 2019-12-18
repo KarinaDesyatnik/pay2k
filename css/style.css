@@ -1053,7 +1053,7 @@ footer .follow-us a {
   display: inline-block;
   -webkit-border-radius: 63px;
           border-radius: 63px;
-  width: 400px;
+  width: 100%;
   max-width: 100%;
   text-align: center;
 }
