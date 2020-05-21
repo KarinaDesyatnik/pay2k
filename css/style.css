@@ -89,6 +89,10 @@ header .container-fluid .wrapper {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.header-content p.mobile {
+  display: none; 
+}
+
 
 .logo a {
   font-size: 24px;
@@ -96,7 +100,9 @@ header .container-fluid .wrapper {
   color: #fff;
   line-height: 29px;
 }
-
+.header-content h1.mobile {
+    display: none;
+  }
 .menu-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3822,8 +3828,8 @@ footer .follow-us {
     background: url("../img/mob_bg.png");
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
-            background-size: 100% 320px;
-    min-height: 350px;
+            background-size: 100%;
+    /*min-height: 350px;*/
   }
   .header-content h1 {
     font-size: 28px;
@@ -3938,15 +3944,53 @@ footer .follow-us {
   footer .col-md-6:nth-child(1) {
     top: -50px;
   }
+  .header-content h1.desktop {
+    display: none;
+  }
+  .header-content h1.mobile {
+    display: block;
+    font-size: 6.1vw;
+    max-width: 98vw;
+    margin: 0 auto;
+    margin-top: 24vw;
+    line-height: 1.5;
+
+  }
+  .header-content {
+    width: 100vw;
+  }
+  header .container-fluid {
+    max-width: 100%;
+    padding: 0 0;
+  }
+  header .wrapper {
+    padding: 0 20px;
+  }
+  .header-content p.desktop {
+    display: none;
+  }
+  .header-content p.mobile {
+    display: block;
+    font-size: 4.5vw;
+    max-width: 100%;
+    line-height: 1.4;
+    margin-top: 5vw;
+  }
+  header {
+/*    height: 103.750vw;*/
+    min-height: 104vw;
+
+  }
+
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 400px) {
   /**/
-  header {
+/*  header {
     min-height: 325px;
-  }
+  }*/
   .how-mutch {
     padding-top: 50px;
   }
@@ -4071,9 +4115,9 @@ footer .col-md-6:nth-child(1) {
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /**/
-  header {
+ /* header {
     min-height: 331px;
-  }
+  }*/
 }
 
 /*==========  Mobile First  ==========*/
